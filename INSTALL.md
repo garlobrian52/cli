@@ -7,13 +7,14 @@ The Doppler CLI is available in several popular package managers. It's also [ava
 Using [brew](https://brew.sh/) is recommended:
 
 ```sh
+$ brew install gnupg # required for binary signature verification
 $ brew install dopplerhq/cli/doppler
 $ doppler --version
 ```
 
 To update:
 ```sh
-$ brew upgrade doppler
+$ doppler update
 ```
 
 Alternatively, you can install the CLI via [shell script](#linuxmacosbsd-shell-script), or via the doppler `.pkg` file on the [Releases](https://github.com/DopplerHQ/cli/releases/latest) page. These methods will install the doppler binary directly to `/usr/local/bin` and do not support seamless updates. To update, you'll need to re-run the installation.
