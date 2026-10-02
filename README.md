@@ -19,6 +19,7 @@ For more info, including instructions on verifying binary signatures, see the [I
 Using [brew](https://brew.sh/) is recommended:
 
 ```sh
+$ brew install gnupg # required for binary signature verification
 $ brew install dopplerhq/cli/doppler
 $ doppler --version
 ```
@@ -26,7 +27,7 @@ $ doppler --version
 To update:
 
 ```sh
-$ brew upgrade doppler
+$ doppler update
 ```
 
 For installation without brew, see the [Install](INSTALL.md#macos) page.
